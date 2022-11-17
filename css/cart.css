@@ -1,0 +1,45 @@
+.cart .container{
+    padding-top: 60px;
+    width: 1200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.cart .container table{
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse;
+}
+.cart .container button{
+    cursor: pointer;
+    padding: 10px;
+}
+.cart .container .number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    margin: 0 20px;
+}
+
+.cart .container .cart-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 40%;
+}
+th{
+    width: 30%;
+    background-color: orange;
+    font-size: 24px;
+}
+
+
+.subtotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

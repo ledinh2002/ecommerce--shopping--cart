@@ -1,0 +1,82 @@
+.face:hover{
+    background-color: #0083c9;
+    color: #FFF;
+}
+.twitter:hover{
+    background-color: #0083c9;
+    color: #FFF;
+}
+.link:hover{
+    background-color: #FF4518;
+    color: #FFF;
+}
+.drib:hover{
+    background-color: #90C9DC;
+    color: #FFF;
+}
+.plus:hover{
+    color: #FFF;
+    background-color: #CE3C2D;
+}
+
+.header_top {
+    background-color: #F0F0E9;
+}
+
+.header_top .container {
+    width: 1300px;
+    margin: auto;
+}
+
+.header_top .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-icons ul li {
+    display: inline-block;
+}
+.nav li {
+    display: block;
+    padding: 20px;
+}
+.nav li .fa-facebook:hover{
+    background-color: aquamarine;
+}
+
+.nav a  {
+    font-size: 18px;
+}
+/* social icon */
+
+/* <div class="header_top">
+        <!--header_top-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactinfo">
+                        <ul class="nav nav-pills">
+                            <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> */

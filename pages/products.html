@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DTL Store</title>
+    <link rel="website icon" type="png" href="../image/loader-img.gif">
+
+    <!-- CDN -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header-top.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+<!--/head-->
+
+<body>
+    <div class="header_top">
+        <!--header_top-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactinfo">
+                        <ul class="nav nav-pills">
+                            <li><a href=""><i class="fa fa-phone"></i> +84 987 568 445</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i>letatdinhfdev@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav navbar-nav">
+                            <a href="" class="face">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                            </a>
+                            <a href="#" class="twitter">
+                                <li>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </li>
+                            </a>
+                            <a href="" class="link">
+                                <li>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </li>
+                            </a>
+                            <a href="" class="drib">
+                                <li>
+                                    <i class="fa-brands fa-dribbble"></i>
+                                </li>
+                            </a>
+                            <a href="" class="plus">
+                                <li>
+                                    <i class="fa-brands fa-google-plus"></i>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo">
+                <i class="fa-solid fa-mobile-screen"></i></i> DTL Store
+            </a>
+
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" required>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="cart.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="../index.html">Home</a>
+                <a href="../pages/products.html">Products</a>
+                <a href="#arrivals">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#blogs">Blogs</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- product -->
+    <div class="product">
+        <div class="container">
+            <div class="img">
+                <img src="../image/airpod-2pro.jpg" alt="">
+            </div>
+            <div class="content">
+                <span>Headphone</span>
+                <h2>Airpod Pro</h2>
+                <p>
+                    These low-profile sneakers are your perfect casual wear companion. br Featuring a durable rubber
+                    outer
+                    sole, they’ll withstand everything the weather can offer.
+                </p>
+                <div class="price">
+                    <div class="price-cost">
+                        <h2>đ 2.300.000</h2>
+                        <p class="accent bg-accent-pale font-bold fs-2 price--discount">50%</p>
+                    </div>
+                    <p class="alt-bkg2 price--original font-bold fs-2">$250.00</p>
+                </div>
+                <div class="buttons">
+                    <div class="btn1 bg-alt-bkg3 rounded">
+                        <button class="click decrease">-</button>
+                        <span id="value">0</span>
+                        <button class="click increase">+</button>
+                    </div>
+                    <button class="add" onclick="add()">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Add To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Describe Product -->
+    <section class="section">
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="./hero-bcg.jpeg" alt="" />
+            </article>
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">Chi tiết sản phẩm</button>
+                    <button class="tab-btn" data-id="vision">mô tả sản phẩm</button>
+                    <button class="tab-btn" data-id="goals">goals</button>
+                </div>
+                <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <h4>history</h4>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem temporibus placeat, sunt
+                            vel adipisci nemo! Quae a ea sed esse repellendus quasi maxime. Deserunt aliquam suscipit
+                            sunt exercitationem ducimus! Perspiciatis animi porro aperiam dolorum non minus velit dicta
+                            dolorem nesciunt perferendis, rerum odit cumque laboriosam autem amet dignissimos sequi!
+                            Eligendi, quidem corporis. Corrupti dolorem hic quas accusantium. Similique alias numquam
+                            hic officiis, fuga in temporibus molestias cum, et dignissimos odit. Illo facilis eveniet
+                            qui doloremque optio, architecto veniam molestiae maxime rem blanditiis excepturi a odit
+                            repudiandae! Nulla, obcaecati. Recusandae laudantium quae perspiciatis possimus consequatur
+                            quaerat? Repellendus ipsa ullam debitis! Vero obcaecati dolorem cum blanditiis, quis
+                            reprehenderit sit similique maxime amet praesentium quae in explicabo illum dolore, fugit
+                            pariatur velit asperiores cupiditate suscipit tenetur? Maiores, numquam officiis, a
+                            perferendis omnis placeat dignissimos distinctio sunt assumenda laudantium, sed amet iste.
+                            Dolorum cupiditate ex non animi voluptatibus doloribus officia, iure deleniti? Dicta, eum.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <h4>vision</h4>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eligendi rem, quia totam vel
+                            omnis magni dolorum provident a natus! Repellendus corrupti cupiditate, itaque consequuntur
+                            est, sunt nisi magnam ad, iste voluptate nam sit doloremque? Saepe porro quas dolores
+                            quisquam? Deserunt perspiciatis libero consectetur harum, placeat non quas sint cumque
+                            assumenda nulla nesciunt error accusantium omnis rerum eum nostrum perferendis
+                            exercitationem illum aliquam minima reprehenderit sed provident. Magni, quam sunt.
+                            Recusandae odit quod cupiditate aliquam libero blanditiis ipsum saepe officiis perferendis?
+                            Totam, eligendi qui saepe necessitatibus unde in asperiores sit nulla, error minus aperiam
+                            reprehenderit explicabo! Amet ut fugiat blanditiis.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <h4>check</h4>
+                        <p>
+                            Chambray authentic truffaut, kickstarter brunch taxidermy vape
+                            heirloom four dollar toast raclette shoreditch church-key.
+                            Poutine etsy tote bag, cred fingerstache leggings cornhole
+                            everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk
+                            swag, mixtape hashtag marfa readymade direct trade man braid
+                            cold-pressed roof party. Small batch adaptogen coloring book
+                            heirloom. Letterpress food truck hammock literally hell of wolf
+                            beard adaptogen everyday carry. Dreamcatcher pitchfork yuccie,
+                            banh mi salvia venmo photo booth quinoa chicharrones.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +84 978568445 </a>
+                <a href="https://facebook.com/dinhle2701"> <i class="fa-brands fa-facebook"></i>
+                    facebook.com</a>
+                <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-instagram"></a>
+            <a href="" class="fab fa-linkedin"></a>
+            <a href="" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> created by <span>mr. Dinh designer</span> | all rights reserved! </div>
+
+    </section>
+
+    <script src="../js/product.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
